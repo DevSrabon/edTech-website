@@ -1,8 +1,9 @@
 /* Custom fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+/* ====slider img === */
 .dark img{
     filter: brightness(50%);
-    height: 650px;
+    height: 700px;
     object-fit: cover;
 }
