@@ -1,8 +1,6 @@
 /* Custom fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-/* ======common style======== */
-
 
 /* ====slider img === */
 .dark-layer img{
@@ -18,13 +16,17 @@
     height: 24px;
 }
 
-/* Landscape tablets and desktops */
+/* ===============responsive============ */
+/* ====Landscape tablets and desktops ==*/
 @media (min-width: 992px) {
     .bottom-m{
         margin-bottom: 130px;
     }
     footer{
         height: 472px;
+    }
+    .media-w{
+        width: 75%;
     }
 }
 
@@ -36,6 +38,9 @@
     footer{
         height: 332px;
     }
+    .media-w{
+        width: 100%;
+    }
 }
 
 /* Portrait phones and smaller */
@@ -45,5 +50,8 @@
     }
     footer{
         height: 249px;
+    }
+    .media-w{
+        width: 100%;
     }
 }
